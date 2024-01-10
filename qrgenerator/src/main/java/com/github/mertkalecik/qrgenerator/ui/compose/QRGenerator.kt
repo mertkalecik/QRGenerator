@@ -31,9 +31,11 @@ import kotlinx.coroutines.launch
 
 /**
  * [rememberQrBitmapPainter] compose function creates a Bitmap painter for the QR code
- *  @param size -> You can change the QR code size.
- *  @param padding -> You can set encoding margin of the QR code.
- *  @param color -> you can change the QR code color.
+ * @param content -> String Content for QR Rendering.
+ * @param qrPlaceHolder -> Place holder for QR until the qr render job finish.
+ * @param size -> Changes the QR code size.
+ * @param padding -> Encoding margin of the QR code.
+ * @param color -> QR code color.
  */
 @Composable
 fun rememberQrBitmapPainter(

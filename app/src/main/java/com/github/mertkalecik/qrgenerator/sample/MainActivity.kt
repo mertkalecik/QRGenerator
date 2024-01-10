@@ -33,6 +33,7 @@ class MainActivity : ComponentActivity() {
             QRGeneratorTheme {
                 val systemUiController = rememberSystemUiController()
                 systemUiController.setStatusBarColor(Color.Black)
+
                 MKSampleQRCode(qrContent = "https://github.com/mertkalecik")
             }
         }
