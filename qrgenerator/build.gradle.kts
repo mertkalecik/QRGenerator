@@ -72,12 +72,12 @@ dependencies {
 afterEvaluate {
     publishing {
         publications {
-            create<MavenPublication>("maven") {
+            create<MavenPublication>("release") {
                 groupId = "com.github.mertkalecik"
                 artifactId = "qrgenerator"
                 version = "1.0.0"
 
-                from(components.findByName("kotlin"))
+                from(components.findByName("release"))
             }
         }
     }

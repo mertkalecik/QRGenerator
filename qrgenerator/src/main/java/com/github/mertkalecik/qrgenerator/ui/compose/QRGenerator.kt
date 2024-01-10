@@ -19,8 +19,8 @@ import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.github.mertkalecik.qrgenerator.R
-import com.github.mertkalecik.qrgenerator.utils.Constants.DEFAULT_PADDING
-import com.github.mertkalecik.qrgenerator.utils.Constants.DEFAULT_QR_SIZE
+import com.github.mertkalecik.qrgenerator.ui.compose.Constants.DEFAULT_PADDING
+import com.github.mertkalecik.qrgenerator.ui.compose.Constants.DEFAULT_QR_SIZE
 import com.google.zxing.BarcodeFormat
 import com.google.zxing.EncodeHintType
 import com.google.zxing.WriterException
