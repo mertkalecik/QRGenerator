@@ -12,3 +12,26 @@ Also, This library provides a functionality that you can change the qr code colo
 
 ## Sample Application:
 <img src="https://github.com/mertkalecik/QRGenerator/assets/38656031/cf3307f6-962d-43ef-8d0b-d149c9b2a1dd" width="480" height="1024">
+
+## Implementation
+Step 1. Add it in your root build.gradle at the end of repositories:
+
+```
+dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+Step 2. Add the dependency
+
+```
+dependencies {
+	        implementation 'com.github.mertkalecik:qrgenerator:1.0.0'
+}
+```
+
+
