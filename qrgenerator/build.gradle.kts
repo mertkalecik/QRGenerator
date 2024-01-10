@@ -76,6 +76,8 @@ afterEvaluate {
                 groupId = "com.github.mertkalecik"
                 artifactId = "qrgenerator"
                 version = "1.0.0"
+
+                from(components.findByName("kotlin"))
             }
         }
     }
